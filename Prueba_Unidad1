@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/editTextTextPersonName"
+            android:layout_weight="1"
+            android:text="Nombre/s" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textView"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombres" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="44dp"
+            android:layout_weight="1"
+            android:text="Apellido" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_alignBaseline="@id/textView2"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-43dp"
+            android:layout_toRightOf="@id/textView2"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Apellidos" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lenguajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genero" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lenguajes">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masculino" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Femenino" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Omitir" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="105dp"
+        android:layout_height="60dp"
+        android:text="Direccion" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="410dp"
+                android:layout_height="73dp"
+                android:text="Seleccione el tipo de direccion de despacho" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="91dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hogar" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trabajo" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Urbano" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Limite Urbano" />
+
+            </LinearLayout>
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condiciones" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:text="CONDICIONES DE COMPRA Y ENVÍOS ♡Todas las ventas se realizan únicamente a través de nuestro sitio web www.kawaiitreats.cl *Los envíos a región son realizados los días MIÉRCOLES
+
+*Los envíos dentro de Santiago y a 5ta región son realizados el día JUEVES; . Esto puede ser modificado ante cualquier eventualidad y será anunciado por nuestras redes sociales.
+
+MÉTODOS DE ENVÍO ♡ BLUEXPRESS:  Todos los envíos excluyendo Santiago y 5ta región serán enviados a través de BLUEXPRESS. El tiempo promedio de entrega de encomiendas de BLUEXPRESS es de 3 a 5 días hábiles en regiones y 6 a 7 días hábiles en regiones extremas desde el envío. En algunas ocasiones bluexpress puede determinar no realizar la entrega a domicilio y despacharla a la sucursal mas cercana; a su vez también puede presentar retrasos ocasionales de hasta 10 días hábiles.
+
+Desde el momento que es despachado el paquete a través de bluexpress es responsabilidad del cliente monitorear con el código de seguimiento enviado su encomienda y ante cualquier problema o eventualidad será el cliente quien deba comunicarse con correos de chile para mantener progreso con el envío.
+
+Los envíos con bluexpress son realizados los días MIÉRCOLES EL TIEMPO QUE MANEJA BLUEXPRESS ES DETERMINADO POR ELLOS. Nosotros podemos hacer un estimado, pero no somos la empresa de transporte.
+
+Cualquier demora desde el momento del envío es responsabilidad de la empresa mencionada anteriormente.  " />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:baselineAligned="false"
+        android:text="Aceptar" />
+
+</LinearLayout>
