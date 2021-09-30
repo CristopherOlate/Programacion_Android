@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="69dp"
+            android:layout_height="33dp"
+            android:layout_alignBaseline="@id/editTextTextPersonName"
+            android:layout_weight="1"
+            android:text="Nombre :" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_toRightOf="@id/textViewName"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombres" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewName"
+            android:layout_marginTop="17dp"
+            android:layout_weight="1"
+            android:text="Apellido :" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_alignBaseline="@id/textView2"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-42dp"
+            android:layout_toRightOf="@id/textView2"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Apellidos"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genero" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="127dp"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:text="Femenino" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="144dp"
+                    android:layout_height="wrap_content"
+                    android:text="Otros" />
+
+            </LinearLayout>
+
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewDireccion"
+            android:layout_width="69dp"
+            android:layout_height="33dp"
+            android:layout_alignBaseline="@id/editTextTextPersonDireccion"
+            android:text="Direccion " />
+
+        <EditText
+            android:id="@+id/editTextTextPersonDireccion"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textViewDireccion"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Direccion" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el tipo de direccion de despacho" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:text="Hogar" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trabajo" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:text="Urbano" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:text="Limite urbano" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condiciones" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="5sp"
+            android:text="CONDICIONES DE COMPRA Y ENVÍOS ♡Todas las ventas se realizan únicamente a través de nuestro sitio web www.kawaiitreats.cl *Los envíos a región son realizados los días MIÉRCOLES  *Los envíos dentro de Santiago y a 5ta región son realizados el día JUEVES; . Esto puede ser modificado ante cualquier eventualidad y será anunciado por nuestras redes sociales.  MÉTODOS DE ENVÍO ♡ BLUEXPRESS:  Todos los envíos excluyendo Santiago y 5ta región serán enviados a través de BLUEXPRESS. El tiempo promedio de entrega de encomiendas de BLUEXPRESS es de 3 a 5 días hábiles en regiones y 6 a 7 días hábiles en regiones extremas desde el envío. En algunas ocasiones bluexpress puede determinar no realizar la entrega a domicilio y despacharla a la sucursal mas cercana; a su vez también puede presentar retrasos ocasionales de hasta 10 días hábiles.  Desde el momento que es despachado el paquete a través de bluexpress es responsabilidad del cliente monitorear con el código de seguimiento enviado su encomienda y ante cualquier problema o eventualidad será el cliente quien deba comunicarse con correos de chile para mantener progreso con el envío.  Los envíos con bluexpress son realizados los días MIÉRCOLES EL TIEMPO QUE MANEJA BLUEXPRESS ES DETERMINADO POR ELLOS. Nosotros podemos hacer un estimado, pero no somos la empresa de transporte.   Cualquier demora desde el momento del envío es responsabilidad de la empresa mencionada anteriormente.  "
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acepto las condiciones" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CONFIRMAR PEDIDO" />
+    </LinearLayout>
+
+</LinearLayout>
