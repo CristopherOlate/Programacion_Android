@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Evaluacion Sensores y Mapas</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
