@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "492827599131",
+    "firebase_url": "https://prueba3-434be-default-rtdb.firebaseio.com",
+    "project_id": "prueba3-434be",
+    "storage_bucket": "prueba3-434be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492827599131:android:d9ca986570b33f372a33be",
+        "android_client_info": {
+          "package_name": "com.cristopherolate.prueba3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492827599131-pb64ei0v1dks0dfuratu03egcppev31l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHAZOwsvL4qpNZ902Py5-zZC3D280nWro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492827599131-pb64ei0v1dks0dfuratu03egcppev31l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
