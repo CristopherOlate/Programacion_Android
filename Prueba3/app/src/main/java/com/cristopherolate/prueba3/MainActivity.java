@@ -38,10 +38,10 @@ import java.util.UUID;
 public class MainActivity extends AppCompatActivity {
 
     private static final String serverUri = "tcp://test.mosquitto.org:1883";
-    private static final String userName = "bastian";
-    private static final String password = "1235";
+    private static final String userName = "Cristopher";
+    private static final String password = "12356";
     private static final String appName = "app1";
-    private static final String clientId = "marcelo";
+    private static final String clientId = "cris";
 
     private static final String TAG = "MQTT Client 01";
 
